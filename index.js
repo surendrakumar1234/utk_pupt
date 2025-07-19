@@ -281,7 +281,7 @@ async function purchaseCourseViaPuppeteer(
     const puppeteer = require("puppeteer");
 
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       args: ["--use-fake-ui-for-media-stream"],
     });
 
