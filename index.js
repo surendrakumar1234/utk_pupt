@@ -143,7 +143,7 @@ app.post("/purchasecourse", async (req, res) => {
             { paymentStatus: 0 }
           );
         } else {
-          trackFile.push({ mNumber: mobileNumber, paymentStatus: 0 });
+          //trackFile.push({ mNumber: mobileNumber, paymentStatus: 0 });
           const track = new Track({
             mNumber: mobileNumber,
             paymentStatus: 0,
